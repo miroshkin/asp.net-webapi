@@ -8,6 +8,7 @@ namespace Treehouse.FitnessFrog.Spa
         {
             config.Routes.MapHttpRoute(
                 name: "DefaultApi",
+                // api/entries/1
                 routeTemplate: "api/{controller}/{id}",
                 defaults:new {id = RouteParameter.Optional}
                 );
